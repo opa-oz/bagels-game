@@ -4,6 +4,13 @@ DIGITS_COUNT = 3
 
 MAX_GUESS_COUNT = 10
 
+
+class Clues:
+    BAGELS = 'Bagels'
+    PICO = 'Pico'
+    FERMI = 'Fermi'
+
+
 WELCOME_STRING = '''
     ===========================
     🥯 Welcome to {b}{green}the {un}Bagels{end} 🥯
@@ -47,7 +54,7 @@ RULES_STRING = '''
 )
 
 ONBOARDING_STRING = '''
-    Use {b}{h}"rules"{end} to see the rules
+    Type {b}{h}"rules"{end} to see the rules
 '''.format(
     h=BColors.HEADER,
     end=BColors.ENDC,
